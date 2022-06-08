@@ -4,20 +4,14 @@
 
 ## Datos
 
-- 🦄 **Desarrollador/a:** *Nombre*
-- 🐇 **Link a red social:** *https://twitter.com/nombre*
-- 🦾 **Perfil:** *Novato / Bajo / Medio / Avanzado / Experto*
-- 💬 **Un comentario breve o frase ingeniosa**: *-*
+- 🦄 **Desarrollador/a:** *Alexxispn*
+- 🐇 **Link a red social:** *https://linkedin.com/in/alexis-plettener-nguyen*
+- 🦾 **Perfil:** *Junior*
+- 💬 **Un comentario breve o frase ingeniosa**: *"He who has a why can bear any how"*
 
 ## Observaciones
 
-*Escribe aquí tus observaciones sobre la implementación*
+*¡Ha sido divertido 😸!*
 
 > Puedes encontrar otros retos de Manz.dev en: <br>▶ https://lenguajejs.com/retos/
 
----
-*Puedes borrar todo desde esta línea en adelante*
-
----
-
-Recuerda cambiar el título del repo, los datos y desplegar la versión en GitHub Pages e indicar la URL en la esquina superior derecha de tu repositorio de GitHub, junto a una pequeña descripción.
