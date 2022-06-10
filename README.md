@@ -1,6 +1,6 @@
 # manzdev-retos-titulo
 
-🌍 **URL del reto**: *https://lenguajejs.com/retos/nivel-facil/bingo*
+🌍 **URL del reto**: *https://lenguajejs.com/retos/nivel-medio/bingo/*
 
 🌐 **URL del despliegue**: *https://alexxispn.github.io/manzdev-retos-bingo*
 
