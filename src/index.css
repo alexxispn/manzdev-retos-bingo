@@ -1,7 +1,7 @@
 :root {
-  --pink: hsl(340deg 76% 48%);
+  --pink: rgb(236 18 91);
   --black: hsl(0deg 0% 0% / 80%);
-  --green: hsl(141deg 84% 47%);
+  --green: rgb(235 226 210);
 }
 
 * {
@@ -33,7 +33,7 @@ h1 {
 .container {
   height: 60%;
   margin: 3% 0;
-  padding: 4% 6%;
+  padding: 2% 6%;
   display: flex;
   justify-content: center;
 }
@@ -44,34 +44,50 @@ h1 {
   border: 0.1rem solid var(--black);
   padding: 2%;
   text-align: center;
-  background: #d91e5c;
+  background: var(--pink);
   border-radius: 2rem;
 }
 
 h2 {
   color: white;
   font-size: 1.5rem;
-  height: 20%;
+  height: 17%;
 }
 
 .player-number {
   height: 80%;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  justify-items: center;
+  row-gap: 0.5rem;
 }
 
 .ball {
   border-radius: 100%;
   border: var(--pink) 0.1rem solid;
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 3rem;
+  height: 3rem;
   color: var(--black);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ffffffe2;
+  background: var(--green);
+  transition: 0.5s;
+}
+
+.cross {
+  background-color: var(--green);
+  transform: rotate(135deg);
+  position: absolute;
+  width: 2.9rem;
+  height: 0.3rem;
+}
+
+.red {
+  background-color: var(--black);
+  color: var(--green);
 }
 
 .bingo {
@@ -88,7 +104,7 @@ h2 {
   margin: 7rem 0;
 }
 
-.play {
+.button {
   color: var(--black);
   border-radius: 1.5rem;
   border: 0.18rem solid var(--pink);
@@ -96,18 +112,23 @@ h2 {
   font-size: 1.5rem;
   transition: 1s;
   cursor: pointer;
+  background: var(--pink);
+  font-weight: 600;
 }
 
 .play:hover {
   background: var(--pink);
 }
 
+#new {
+  align-self: center;
+}
+
 footer {
   width: 100%;
   height: 20%;
   border-top: 0.3rem solid var(--black);
-  padding: 2% 6%;
-  display: flex;
+  padding: 2% 8%;
 }
 
 h3 {
